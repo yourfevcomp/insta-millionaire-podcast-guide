@@ -1,0 +1,31 @@
+# robots.txt for https://yourfevcomp.github.io/insta-millionaire-podcast-guide/
+
+# Allow major search engines to index main pages
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+User-agent: Baiduspider
+User-agent: Yandex
+Allow: /index.html
+Allow: /amp.html
+Allow: /README.md
+Allow: /image.jpg
+Allow: /
+
+# Block specific directories or sensitive content
+# You can uncomment these if you add content you don't want indexed
+# Disallow: /private/
+# Disallow: /drafts/
+# Disallow: /internal/
+
+# Provide sitemap location (create this file for better indexing)
+Sitemap: https://yourfevcomp.github.io/insta-millionaire-podcast-guide/sitemap.xml
+
+# For all other crawlers
+User-agent: *
+Allow: /index.html
+Allow: /amp.html
+Allow: /image.jpg
+Disallow: /assets/
+Crawl-delay: 10 
